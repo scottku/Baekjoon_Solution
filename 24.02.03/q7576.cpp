@@ -1,4 +1,4 @@
-#define _CRT_SECURE_NO_WARNINGS
+ï»¿#define _CRT_SECURE_NO_WARNINGS
 
 #include <stdio.h>
 #include <cmath>
@@ -29,11 +29,11 @@ int main(void)
 {
 	memset(arr, 0, sizeof(arr));
 	memset(visit, false, sizeof(visit));
-	scanf("%d %d", &M, &N); // °¡·Î, ¼¼·Î
+	scanf("%d %d", &M, &N); // ê°€ë¡œ, ì„¸ë¡œ
 	queue<pair<pair<int, int>, int>> q;
-	for (int i = 1; i <= N; i++) // ¼¼·Î
+	for (int i = 1; i <= N; i++) // ì„¸ë¡œ
 	{
-		for (int j = 1; j <= M; j++) // °¡·Î
+		for (int j = 1; j <= M; j++) // ê°€ë¡œ
 		{
 			int temp;
 			scanf("%d", &temp);
