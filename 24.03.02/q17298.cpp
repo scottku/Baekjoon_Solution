@@ -25,7 +25,7 @@ int arr[ARR_SIZE];
 void findNext(int _start, int _comp);
 
 int main()
-{	// 예전에 풀었던 전신주가 정보를 받아들이는 것의 반대방향 버전인듯?
+{
 	for (int i = 0; i < ARR_SIZE; i++)
 	{
 		arr[i] = -1;
