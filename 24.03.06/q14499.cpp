@@ -23,7 +23,7 @@ int x, y;
 int k;
 int _map[20][20];
 int arr_dice[7] = { 0 };
-int dice_top = 1; // 주사위 윗면이 1인 면에서부터 시작
+int dice_top = 1; // 시작은 1
 int dice_n = 2; // north
 int dice_e = 3; // east
 

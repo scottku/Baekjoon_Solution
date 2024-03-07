@@ -48,6 +48,7 @@ int main(void)
 
 	// 단순히 true로 국경이 연결됨을 확인하면 국경 연결 안되어있고 따로따로 섬처럼 연결되어있는데 모든 값이 더해져서 이상해짐
 	// union-find 느낌으로 진행해봐야 겠음
+	// 추가 궁금증 : 
 
 	while (true)
 	{
@@ -165,7 +166,8 @@ int main(void)
 
 	printf("%d", _day);*/
 }
-
+// 추가 궁금증 : 방문했던 곳을 다시 체크하지 않기위해 connect[x][y][0] = true로 변경할 때 connect[x-1][y][2] = true로 미리미리 변경해주려고 하는데
+// 해당 작업을 진행하면 시간 초과가 뜬다...
 void makeConnection(int x, int y, int range)
 {
 	if (x - 1 >= 1) // 상
